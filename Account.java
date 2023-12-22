@@ -46,7 +46,7 @@ public class Account {
         fw.flush();//写进文件
         fw.close();
         this.money -= money;
-        Test.usersListUpdate();//更新用户文档（信息）
+        Test.usersListUpdate();//更新用户文档（信息）fdfddf
     }
 
     public void inMoney(int money)throws Exception
